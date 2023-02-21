@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        table, th, td {
+          border:1px solid black;
+        }
+        </style>
+        <style> 
+            input:default {
+              box-shadow: 0 0 1px 1px red;
+            }
+            </style>
+<head>
+<title>Užduotis02</title>
+</head>
+<body>
+
+<img src="/Images/vcs.png">
+<h1>About</h1>
+<p>
+    <b>Lorem Ipsum</b> is dummy text of the <i>printing</i> and <i>typesettinng</i> insdustry. Lorem Impsum has been the insdustry's standart dummy text<br> 
+    ever since 1500s, when an unknown printer took a galley of type and scrambled ir to make a typespeciementt book. It has survived not<br> 
+    only five centuries, but also the leap into eletronic typesetting, remaining essentially unchanged. 
+</p>
+<h1>Projects</h1>
+<ul>
+    <li>Featured
+        <ul><li><a href="url">Project 1</a></ul</li></ul>
+        <ul><li><a href="url">Project 2</a></ul</li></ul>
+    </li>
+</ul>
+
+<ul>
+    <li>Latest
+        <ul><li><a href="url">Project 3</a></ul</li></ul>
+        <ul><li><a href="url">Project 4</a></ul</li></ul>
+    </li>
+    
+ </ul>  
+
+ <h1>Festival Schedule</h1>
+
+ <table style="width: 50;%">
+    <tr>
+      <td><b>Time</b></td>
+      <td><b>Topic</b></td>
+
+    </tr>
+
+    <tr>
+      <td>9:00-12:00</td>
+      <td>Registration</td>
+    </tr>
+    <tr>
+        <td>12:00-14:00</td>
+        <td>Keynote</td>
+      </tr>
+  </table>
+  
+  <h1>Sign Up!</h1>
+
+  <form action="/action_page.php">
+    <label for="fname">Name:</label>
+    <input type="text" id="fname" name="fname"><br>
+    <label for="Email">Email:</label>
+    <input type="text" id="Email" name="Email"><br>
+    <form action="/action_page.php">
+        <label for="Location">Location:</label>
+        <select id="Chose city" name="Location">
+          <option value="vilnius">Vilnius</option>
+          <option value="kaunas">Kaunas</option>
+          <option value="šiauliai">Šiauliai</option>
+          <option value="Klaipėda">Klaipėda</option>
+        </select> </br>
+  
+        <form action="">
+            <label for="Gender">Gender:</label>
+            <input type="radio" name="gender" value="male" checked> Male
+            <input type="radio" name="gender" value="female"> Female
+            <input type="radio" name="gender" value="other"> Other
+          </form>
+          <p>Message:</p>
+          <form action="/action_page.php">
+            <textarea name="message" rows="10" cols="30">The cat was playing in the garden.</textarea>
+            <br>
+            <button name="subject" type="submit" value="Sign Up">Sign Up</button>
+          </form>
+  </form>
+
+</body>
+</html>
